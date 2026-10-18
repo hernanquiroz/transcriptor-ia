@@ -29,6 +29,13 @@ SUPPORTED_EXTENSIONS = {
 
 st.set_page_config(
     page_title="Transcriptor IA",
+    st.markdown(
+    "<div style='text-align:center; color:#64748b; "
+    "font-size:14px; margin-bottom:18px;'>"
+    "Diseño por IA, Ing. Hernàn Quiroz"
+    "</div>",
+    unsafe_allow_html=True
+)
     page_icon="🎙️",
     layout="wide",
     initial_sidebar_state="collapsed",
